@@ -1,0 +1,9 @@
+"<p>Dear <strong>" & row("name").ToString & "</strong>,</p>" & _
+            "<p>Your appointment is <span style='color:green;'><strong>confirmed</strong></span>.</p>" & _
+            "<p>" & _
+            "<strong>Date:</strong> " & row("date").ToString & "<br>" & _
+            "<strong>Time:</strong> " & row("time").ToString & "<br>" & _
+            "<strong>Reason:</strong> " & row("reason").ToString & _
+            "</p>" & _
+            "<p>Thank you for choosing our healthcare services.<br>" & _
+            "Warm regards,<br><em>Healthcare Team</em></p>"
